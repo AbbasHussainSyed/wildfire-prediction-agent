@@ -2,6 +2,6 @@ services:
   - type: web
     name: wildfire-prediction-agent
     env: python
-    buildCommand: "pip install -r wildfire-prediction-agent/requirements.txt"
-    startCommand: "python wildfire-prediction-agent/src/fire_risk_map_app.py"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python src/fire_risk_map_app.py"
     branch: main
