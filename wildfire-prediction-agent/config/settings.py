@@ -1,5 +1,10 @@
 # config/settings.py
+import sys
 import os
+
+sys.path.append(
+    os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "config"))
+)
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -13,4 +18,3 @@ VISUAL_CROSSING_KEY = os.getenv("VISUAL_CROSSING_KEY")
 # Paths
 RAW_DATA_DIR = "data/raw"
 PROCESSED_DATA_DIR = "data/processed"
-
