@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+wildfire-prediction-agent/data/processed/merged_dataset.csv
+wildfire-prediction-agent/data/raw/fire_data.csv
+wildfire-prediction-agent/data/raw/weather_data.csv
