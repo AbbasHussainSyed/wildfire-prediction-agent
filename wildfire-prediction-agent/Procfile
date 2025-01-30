@@ -1,1 +1,1 @@
-web: python src/fire_risk_map_app.py
+web: python wildfire-prediction-agent/src/fire_risk_map_app.py
