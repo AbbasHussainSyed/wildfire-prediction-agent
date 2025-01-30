@@ -1,6 +1,5 @@
-Here’s the updated README.md with the tech stack and model details included:
 
-Wildfire Prediction Agent
+# Wildfire Prediction Agent
 
 This project uses a machine learning model to predict wildfire risk in various regions of the United States. The predictions are based on trained data, allowing the user to interact with the system by providing coordinates (latitude and longitude) and risk values through a user-friendly web interface powered by Gradio.
 
@@ -80,5 +79,3 @@ Notes
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-This version adds a section about the Tech Stack and the Models used in the project. Let me know if you’d like further edits!
