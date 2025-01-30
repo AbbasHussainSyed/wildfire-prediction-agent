@@ -1,3 +1,6 @@
 gradio
+geopandas
 folium
+flask
 pandas
+numpy

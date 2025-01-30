@@ -1,0 +1,1 @@
+web: python src/fire_risk_map_app.py
