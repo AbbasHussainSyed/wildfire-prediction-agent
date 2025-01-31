@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: fire-risk-map-app
+    name: wildfire-prediction-agent
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python fire_risk_map_app.py
-    workingDirectory: src
+    startCommand: python src/fire_risk_map_app.py
+    workingDirectory: .
