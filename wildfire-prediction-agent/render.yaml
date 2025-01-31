@@ -4,6 +4,5 @@ services:
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python src/fire_risk_map_app.py
-    includedPaths:
-      - wildfire-prediction-agent
+    startCommand: python fire_risk_map_app.py
+    workingDirectory: src
