@@ -3,21 +3,21 @@
 
 This project uses a machine learning model to predict wildfire risk in various regions of the United States. The predictions are based on trained data, allowing the user to interact with the system by providing coordinates (latitude and longitude) and risk values through a user-friendly web interface powered by Gradio.
 
-Features
-	•	Fire Risk Prediction: Predict wildfire risk for a given set of latitude, longitude, and risk values.
-	•	User Interaction: Use dropdowns to select or modify latitude, longitude, and fire risk values.
-	•	Map Visualization: A dynamic map that displays the fire risk predictions in real-time.
+	Features:
+	Fire Risk Prediction: Predict wildfire risk for a given set of latitude, longitude, and risk values.
+	User Interaction: Use dropdowns to select or modify latitude, longitude, and fire risk values.
+	Map Visualization: A dynamic map that displays the fire risk predictions in real-time.
 
-Tech Stack
-	•	Backend: Python 3.x
-	•	Machine Learning: Scikit-learn, TensorFlow (for model training and predictions)
-	•	Web Framework: Gradio (for the user interface)
-	•	Data Visualization: Folium (for interactive map visualization)
-	•	Deployment: Render (for cloud deployment)
+	Tech Stack:
+	Backend: Python 3.x
+	Machine Learning: Scikit-learn, TensorFlow (for model training and predictions)
+	Web Framework: Gradio (for the user interface)
+	Data Visualization: Folium (for interactive map visualization)
+	Deployment: Render (for cloud deployment)
 
-Models
-	•	The wildfire risk prediction model has been trained using historical fire data (latitude, longitude, and associated fire risk) to detect and predict potential wildfire occurrences in different regions.
-	•	The model uses machine learning algorithms to predict fire risk levels based on geographical coordinates and historical risk data.
+	Models
+	The wildfire risk prediction model has been trained using historical fire data (latitude, longitude, and associated fire risk) to detect and predict potential wildfire occurrences in different regions.
+	The model uses machine learning algorithms to predict fire risk levels based on geographical coordinates and historical risk data.
 
 Installation
 
@@ -68,14 +68,8 @@ Folder Structure
     ├── requirements.txt           # List of dependencies
     └── render.yaml                # Render configuration file (for deployment)
 
-Deployment on Render
-	1.	Deploy on Render: You can deploy the application on Render by following the steps mentioned in the Render Deployment Docs.
-	2.	Configuration: Add the render.yaml file to the root of your repository to specify the deployment settings.
-
 Notes
 	•	Model Training: The model used for fire risk prediction has been trained with historical fire data. The purpose of this training is to enable the app to predict the risk of wildfire based on past trends.
 	•	Fire Risk Data: The prediction is made based on historical patterns of fire occurrences, the latitude, longitude, and current risk levels.
 
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+![Screenshot 2025-01-31 at 8 26 05 PM](https://github.com/user-attachments/assets/84c9f756-1f11-4324-b3f5-5dfd16f2f5d5)
